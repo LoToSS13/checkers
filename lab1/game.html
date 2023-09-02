@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра</title>
+    <nav class="menu">
+        <a href="./index.html">Главная</a>
+        <a href="./rules.html">Правила</a>
+        <a class="active" href="./game.html">Играть</a>
+    </nav>
+</head>
+
+<body>
+
+    <style>
+        footer {
+            position: fixed;
+        }
+
+        table {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <table class="board">
+
+        <tr>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_white">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black"></div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+            <td>
+                <div class="box"></div>
+            </td>
+            <td>
+                <div class="box black">
+                    <div class="checker_black">&#9920;</div>
+                </div>
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+
+
+<footer>
+    <p>&copy; Зубанков Алексей Вячеславович ММБ-004 2023 <a href="t.me/LoToSS13"><img src="images/telegram.png"
+                height="24" width="24"></a> <a href="https://vk.com/lotoss13"><img src="images/vk.png" height="24"
+                width="24"></a>
+    </p>
+</footer>
+
+</html>

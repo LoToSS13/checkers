@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+
+}
+
+
+
+nav {
+    background-color: #FFA51A;
+
+    width: 100%;
+    padding-top: 0;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+nav a {
+    float: left;
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #D59635;
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+
+
+nav .active {
+    background-color: whitesmoke;
+
+}
+
+footer {
+    background-color: #FFD18A;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+
+footer p {
+    font-size: 20px;
+
+}
+
+pre {
+    color: #2e3436;
+    background-color: #cadaee;
+    border-color: #cadaee #cadaee #cadaee #bac9db;
+    border-style: solid;
+    border-width: 1px 1px 1px 10px;
+    font-family: "courier new";
+    font-size: 10pt;
+    font-style: normal;
+    font-weight: normal;
+    margin: 8pt 0;
+    overflow: hidden;
+    padding: 10pt 9pt;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* unvisited link  */
+a:link {
+    color: #2C90FF;
+}
+
+/* visited link */
+a:visited {
+    color: #2C90FF;
+}
+
+/* mouse over link */
+a:hover {
+    color:
+        #FFA51A;
+}
+
+/* selected link */
+a:active {
+    color: #2C90FF;
+}
+
+* .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.board {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+
+    height: 640%;
+}
+
+.box {
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.black {
+    background-color: black;
+
+}
+
+.checker_white {
+    color: #2C90FF;
+}
+
+.checker_black {
+    color: #FFA51A;
+}
+
+
+.numbers {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    height: 640px;
+    width: 50px;
+    left: -50px;
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+.letters {
+    position: absolute;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    height: 50;
+    width: 640;
+    left: 0px;
+    bottom: -50px;
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+}
