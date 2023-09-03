@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Главная</a>
+            </li>
+            <li>
+                <a href="./rules.html">Правила</a>
+            </li>
+            <li>
+                <a class="active" href="./game.html">Играть</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Шашки</h1>
+    </header>
+    <div class="main_content">
+        <table class="board">
+            <tr>
+                <td>
+                    <div class="board_letter">8</div>
+                </td>
+                <td>
+                    <div class="box black top_border left_border">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box top_border"></div>
+                </td>
+                <td>
+                    <div class="box black top_border">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box top_border"></div>
+                </td>
+                <td>
+                    <div class="box black top_border">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box top_border"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box right_border top_border"></div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="board_letter">7</div>
+                </td>
+                <td>
+                    <div class="box left_border"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black right_border">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="board_letter">6</div>
+                </td>
+                <td>
+                    <div class="box black left_border">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_white">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box right_border"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="board_letter">5</div>
+                </td>
+                <td>
+                    <div class="box left_border"></div>
+                </td>
+                <td>
+                    <div class="box black"></div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black"></div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black"></div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black right_border"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="board_letter">4</div>
+                </td>
+                <td>
+                    <div class="box black left_border"></div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black"></div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black"></div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black"></div>
+                </td>
+                <td>
+                    <div class="box right_border"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="board_letter">3</div>
+                </td>
+                <td>
+                    <div class="box left_border"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black right_border">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="board_letter">2</div>
+                </td>
+                <td>
+                    <div class="box black left_border">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box"></div>
+                </td>
+                <td>
+                    <div class="box black">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box right_border"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="board_letter ">1</div>
+                </td>
+                <td>
+                    <div class="box bottom_border left_border"></div>
+                </td>
+                <td>
+                    <div class="box black bottom_border">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box bottom_border"></div>
+                </td>
+                <td>
+                    <div class="box black bottom_border">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box bottom_border"></div>
+                </td>
+                <td>
+                    <div class="box black bottom_border">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="box bottom_border"></div>
+                </td>
+                <td>
+                    <div class="box black bottom_border right_border">
+                        <div class="checker_black">&#9920;</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="board_letter">A</td>
+                <td class="board_letter">B</td>
+                <td class="board_letter">C</td>
+                <td class="board_letter">D</td>
+                <td class="board_letter">E</td>
+                <td class="board_letter">F</td>
+                <td class="board_letter">G</td>
+                <td class="board_letter">H</td>
+
+            </tr>
+
+        </table>
+
+        <div class="game_history">
+            <div class="black game_history_board"></div>
+        </div>
+    </div>
+
+</body>
+
+
+<footer class="fixed">
+    <p>&copy; Зубанков Алексей Вячеславович ММБ-004 2023 <a href="t.me/LoToSS13"><img src="images/telegram.png"
+                class="icon"></a> <a href="https://vk.com/lotoss13"><img src="images/vk.png" class="icon"></a>
+    </p>
+</footer>
+
+</html>
